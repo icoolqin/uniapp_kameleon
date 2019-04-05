@@ -3,7 +3,7 @@
 		<swiper class="screen-swiper round-dot" :indicator-dots="true" :circular="true" :autoplay="true" interval="5000"
 		 duration="500">
 			<swiper-item v-for="(item,index) in 4" :key="index">
-				<image :src="'/static/about/me/' + index + '.jpg'" mode="aspectFill"></image>
+				<image :src="'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/' + index + '.jpg'" mode="aspectFill"></image>
 			</swiper-item>
 		</swiper>
 		<view class = "desc-wrapper">
