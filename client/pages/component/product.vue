@@ -22,8 +22,8 @@
 							</view>
 						</view>
 						<view class="grid flex-sub padding-lr col-3 grid-square">
-							<view class="bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"
-							 v-for="(item,index) in 9" :key="index">
+							<view class="bg-img" :style="{'background-image': 'url(' + image + ')'}"
+							 v-for="(image, imgIndex) in product.images" :key="imgIndex" @tap = "showModal(image)">
 							</view>
 						</view>
 						<view class="text-gray text-sm text-right padding">
@@ -32,7 +32,20 @@
 				</view>
 			</view>
 		</view>
-		
+		<view class="cu-modal" :class="isShowModal ? 'show' : ''">
+			<view class="cu-dialog">
+				<view class="bg-img" :style="{'background-image': 'url(' + currentImageSrc + ')'}">
+					<view class="cu-bar justify-end text-white">
+						<view class="action" @tap="hideModal">
+							<text class="icon-close "></text>
+						</view>
+					</view>
+				</view>
+				<view class="cu-bar bg-white">
+					<view class="action margin-0 flex-sub  solid-left" @tap="hideModal">关闭</view>
+				</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -40,6 +53,8 @@
 	export default {
 		data() {
 			return {
+				isShowModal: false,
+				currentImageSrc: '',
 				productList: [
 					{
 						name: '国泰基金 支付宝小程序',
@@ -49,7 +64,9 @@
 							'uni-app (跨端框架)',
 							'Node'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/bg.jpg'
+						]
 					},
 					{
 						name: '国泰基金 Hybrid APP',
@@ -151,6 +168,13 @@
 			};
 		},
 		methods: {
+			showModal(imageSrc) {
+				this.currentImageSrc = imageSrc;
+				this.isShowModal = true;
+			},
+			hideModal() {
+				this.isShowModal = false;
+			}
 		}
 	}
 </script>
@@ -164,6 +188,12 @@
 				.text-content{
 					margin-top: 20upx;
 				}
+			}
+		}
+		
+		.cu-dialog{
+			.bg-img{
+				height: 600upx;
 			}
 		}
 	}
