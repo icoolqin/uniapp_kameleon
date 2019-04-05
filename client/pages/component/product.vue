@@ -65,7 +65,6 @@
 							'Node'
 						],
 						images: [
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/bg.jpg'
 						]
 					},
 					{
@@ -123,7 +122,15 @@
 							'Webpack',
 							'Gulp'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_6.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/noah_7.png',
+						]
 					},
 					{
 						name: '腾讯科技 面试官移动WEB助手',
@@ -193,7 +200,7 @@
 		
 		.cu-dialog{
 			.bg-img{
-				height: 600upx;
+				height: 800upx;
 			}
 		}
 	}
