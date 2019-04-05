@@ -1,6 +1,7 @@
 <template>
 	<view class="index-wrapper">
 		<about v-if="PageCur=='about'"></about>
+		<product v-if="PageCur=='product'"></product>
 		<view class="cu-bar tabbar bg-white shadow foot">
 			<view class="action" @click="NavChange" data-cur="about">
 				<view class='icon-cu-image'>
@@ -8,18 +9,19 @@
 				</view>
 				<view :class="PageCur == 'about' ? 'text-green' : 'text-gray'">我</view>
 			</view>
-			<view class="action" @click="NavChange" data-cur="basics">
+			<view class="action" @click="NavChange" data-cur="product">
 				<view class='icon-cu-image'>
-					<image :src="'/static/tabbar/basics' + [PageCur == 'basics' ? '_cur' : ''] + '.png'"></image>
+					<image :src="'/static/tabbar/product' + [PageCur == 'product' ? '_cur' : ''] + '.png'"></image>
 				</view>
-				<view :class="PageCur == 'basics' ? 'text-green' : 'text-gray'">作品</view>
+				<view :class="PageCur == 'product' ? 'text-green' : 'text-gray'">作品</view>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>
-	import about from '@/pages/component/about.vue'
+	import about from '@/pages/component/about.vue';
+	import product from '@/pages/component/product.vue';
 	
 	export default {
 		data() {
@@ -28,7 +30,8 @@
 			};
 		},
 		components:{
-			about
+			about,
+			product
 		},
 		methods: {
 			NavChange: function(e) {
