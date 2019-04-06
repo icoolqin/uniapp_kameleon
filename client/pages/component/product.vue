@@ -65,6 +65,15 @@
 							'Node'
 						],
 						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_6.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_7.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_8.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_9.png'
 						]
 					},
 					{
@@ -79,7 +88,17 @@
 							'Webpack',
 							'Axios'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_6.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_7.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_8.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_9.png'
+						]
 					},
 					{
 						name: '国泰基金 直销官网',
@@ -89,7 +108,12 @@
 							'JQuery',
 							'Gulp'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtfund_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtfund_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtfund_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtfund_4.png'
+						]
 					},
 					{
 						name: '国泰基金 H5运营活动',
@@ -101,7 +125,14 @@
 							'云凤蝶',
 							'Hilo (阿里H5游戏引擎)'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_6.png'
+						]
 					},
 					{
 						name: '国泰基金 内部工具',
@@ -110,7 +141,11 @@
 							'Electron',
 							'Bootstrap3'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/electron_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/electron_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/electron_3.png'
+						]
 					},
 					{
 						name: '阅文集团 Noah活动模板引擎',
@@ -143,7 +178,20 @@
 							'Redis',
 							'Mysql'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_6.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_7.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_8.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_9.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_10.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_11.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/helper_12.png'
+						]
 					},
 					{
 						name: '腾讯科技 校园招聘内网管理系统',
@@ -169,7 +217,12 @@
 							'Redis',
 							'Mysql'
 						],
-						images: []
+						images: [
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/tencent_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/tencent_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/tencent_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/tencent_4.png'
+						]
 					}
 				]
 			};
@@ -201,6 +254,7 @@
 		.cu-dialog{
 			.bg-img{
 				height: 800upx;
+				background-size: contain;
 			}
 		}
 	}
