@@ -89,15 +89,15 @@
 							'Axios'
 						],
 						images: [
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_1.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_2.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_3.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_4.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_5.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_6.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_7.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_8.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_9.png'
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_6.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_7.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_8.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gtapp_9.png'
 						]
 					},
 					{
@@ -126,12 +126,12 @@
 							'Hilo (阿里H5游戏引擎)'
 						],
 						images: [
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_1.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_2.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_3.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_4.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_5.png',
-							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/alipay_6.png'
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_1.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_2.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_3.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_4.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_5.png',
+							'https://uniapp-1251340574.cos.ap-shanghai.myqcloud.com/gth5_6.png'
 						]
 					},
 					{
